@@ -1,0 +1,49 @@
+/* body styles */
+body {
+	background: url(images/photo-1611318293929-6973206e3e4e.jfif) no-repeat center
+		fixed;
+	background-size: cover;
+}
+
+/* card styles */
+.card {
+	background-color: rosybrown;
+	opacity: 65%;
+	border-radius: 20px;
+}
+
+/* detais plot styles */
+.details-plot {
+	padding: 15px;
+}
+
+/*date dropdown styles*/
+.buttonIn {
+	width: 300px;
+	position: relative;
+}
+
+.clear {
+	/* position: absolute; */
+	top: 0;
+	border-radius: 5px;
+	right: 0px;
+	z-index: 2;
+	border: none;
+	top: 2px;
+	height: 30px;
+	cursor: pointer;
+	color: white;
+	background-color: #2cc288;
+	transform: translateX(2px);
+}
+
+/* country select dropdown styles */
+.select-country-dd {
+	width: 10%;
+}
+
+/* small tag styles */
+small {
+	color: red;
+}
